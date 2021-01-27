@@ -1,0 +1,12 @@
+nav {
+  height: 120px; 
+  width: 100%;
+  color: #ffffff;
+  background-color: #4056A1;
+  padding: 1.5em;
+  /* line-height: 120 px; */
+  
+}
+.nav-header{
+  font-family: 'Bungee', sans-serif;
+}
