@@ -10,7 +10,8 @@
  }
 .tweet{
   height: 400px;
-  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  border: 3px solid black;
+  /* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
 }
 .tweet header {
   background-color: transparent;
@@ -55,15 +56,7 @@ border:none;
   padding: 20px;
 }
 
-/* visited link */
-a:visited {
-  color: green;
-}
 
-/* mouse over link */
-a:hover {
-  color: red;
-}
 
 #tweet-container{
   display: flex;
@@ -71,6 +64,20 @@ a:hover {
   background-color: #f4f1ec;
   width: 100%;
   padding: 20px;
+  
+  
+}
+#tweet-container p{
+  margin: 20px;
+  border-bottom:3px solid gray  ; 
+  padding: 20px;
+}
+#tweet-container footer{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
 }
 .user-email{
   display: flex;
@@ -85,4 +92,8 @@ header.user{
   display: flex;
   flex-direction:row;
   align-items: flex-start;
+}
+.user p{
+  margin: 20px;
+  border-bottom:3px solid gray  ;
 }
