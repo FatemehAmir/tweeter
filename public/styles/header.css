@@ -1,5 +1,5 @@
 header {
-  height: 400px;
+  /* height: 400px; */
   width:100%;
   color: #545149;
   background-color: #db8f15;
@@ -10,8 +10,8 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #25008a;
-  background-color: #c7bd00;
-background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  
+/* background-image: url("https://www.transparenttextures.com/patterns/arches.png"); */
 
 
 }

@@ -5,7 +5,10 @@ nav {
   background-color: #4056A1;
   padding: 1.5em;
   /* line-height: 120 px; */
-  
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 .nav-header{
   font-family: 'Bungee', sans-serif;
